@@ -70,8 +70,14 @@ section h4 span{
     font-weight:300;
 }
 section h5{
-    font-weight:300;
-    font-size:17px
+    display:block;
+    float:left;
+    position:relative;
+    width:100%;
+    border-bottom: 1px dashed #d3d3d3;
+    font-weight:500;
+    font-size:17px;
+    margin: 15px 0 0 0;
 }
 
 .project{
@@ -106,7 +112,25 @@ section h5{
     border-left:1px solid #fff;
 }
 
-
+ul{
+    display:block;
+    float:left;
+    position:relative;
+    width:100%;
+    list-style:none;
+    margin: 10px 0 20px 0;
+    padding: 0;
+}
+ul li{
+    display:block;
+    float:left;
+    position:relative;
+    width:100%;
+}
+ul li a{
+    color:#1f55c2;
+    text-decoration:none;
+}
 
 
 
