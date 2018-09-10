@@ -131,7 +131,10 @@ ul li a{
     color:#1f55c2;
     text-decoration:none;
 }
-
+ul li a:hover{
+    color:#c21faf;
+    text-decoration:underline;
+}
 
 
 
