@@ -51,6 +51,11 @@ header h3{
     font-weight: 600;
     color:#888;
 }
+header a{
+    font-size:10px;
+    text-decoration:none;
+    color:#00f;
+}
 #main{
     padding:50px;
 }
