@@ -117,7 +117,7 @@ section h5{
     border-left:1px solid #fff;
 }
 
-section > ul{
+section ul{
     display:block;
     float:left;
     position:relative;
@@ -127,7 +127,7 @@ section > ul{
     padding: 0;
 }
 ul li{
-    display:block;
+    /* display:block; */
     float:left;
     position:relative;
     width:100%;
@@ -141,7 +141,10 @@ ul li a:hover{
     text-decoration:underline;
 }
 
-
+ul.styled{
+    padding: 0 0 0 20px;
+    list-style: square;
+}
 
 
 
